@@ -1,0 +1,85 @@
+* {
+  margin:  0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "roboto";
+}
+
+html {
+  height: 100%;
+  min-height: 100%;
+  text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  height: 100%;
+  min-height: 100%;
+  margin: 0;
+  background-color: unset;
+  overscroll-behavior-y: contain;
+}
+
+body,
+h1, h2, h3, h4, h5, h6,
+blockquote, p, pre,
+dl, dd, ol, ul,
+figure,
+hr,
+fieldset, legend {
+  margin:  0;
+  padding: 0;
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+section,
+figcaption,
+figure,
+main {
+  display: block;
+}
+
+ul,
+ol {
+  margin:  0;
+  padding: 0;
+  list-style-type: none;
+}
+
+img {
+  display: inline-block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.container-xl {
+  
+  max-width: 95%;
+
+  @media screen and (min-width: 1440px) {
+
+    max-width: 1320px;
+  }
+
+  @media screen and (min-width: 1630px) {
+
+    max-width: 1440px;
+  }
+
+  @media screen and (min-width: 1920px) {
+
+    max-width: 1630px;
+  }
+}
