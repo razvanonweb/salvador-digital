@@ -15,5 +15,12 @@
 // 
 @import "./basefonts";
 
+// common
+// 
+@import './common';
+
 // components
 // 
+@import "./components/Header/header";
+@import "./components/Hero/hero";
+@import "./components/SliderBox/sliderBox";

@@ -1,0 +1,35 @@
+.hero {
+    height: 700px;
+    background-color: $white-color;
+    position: relative;
+}
+
+.hero-img {
+    height: 700px;
+    object-fit: cover;
+    opacity: 0.3;
+}
+
+.hero-desctiption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: $black-color;
+}
+
+.hero-title {
+    margin-bottom: 20px;
+}
+
+.hero-txt {
+    margin-bottom: 20px;
+    max-width: 1000px;
+}
+
+.hero-button {
+    padding: 6px 50px;
+    border: unset;
+    border-radius: 3px;
+    background-color: $primary-color;
+    color: $white-color;
+}

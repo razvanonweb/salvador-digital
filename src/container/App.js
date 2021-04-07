@@ -1,10 +1,15 @@
 import React from 'react';
+import Header from '../components/Header/Header';
+import Hero from '../components/Hero/Hero';
+import SliderBox from '../components/SliderBox/SliderBox';
 import '../css/App.min.css';
 
 function App() {
   return (
     <div>
-      <o>hello</o>
+      <Header />
+      <Hero />
+      <SliderBox />
     </div>
   );
 }
