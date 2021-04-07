@@ -2,14 +2,13 @@
 // 
 @import "./bootstrap-5.0.0/bootstrap";
 
+// variables
+// 
+@import "./variables";
 
 // reset
 // 
 @import './reset';
-
-// variables
-// 
-@import "./variables";
 
 // base fonts
 // 
@@ -24,3 +23,7 @@
 @import "./components/Header/header";
 @import "./components/Hero/hero";
 @import "./components/SliderBox/sliderBox";
+@import "./components/OfferSection/offerSection";
+@import "./components/Custom/custom";
+@import "./components/Testimonials/testimonials";
+@import "./components/Footer/footer";

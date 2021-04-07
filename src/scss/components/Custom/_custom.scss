@@ -1,0 +1,130 @@
+.custom {
+    background-color: $orange-color;
+    position: relative;
+    .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.custom-box {
+    margin: 55px auto;
+}
+
+.custom-img {
+    height: 100%;
+}
+
+.custom-description {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    height: 100%;
+}
+
+.custom-title {
+    color: $white-color;
+    text-decoration: underline;
+    font-size: 20px;
+    font-style: italic;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+}
+
+.custom-text {
+    color: $white-color;
+    font-size: 20px;
+    font-style: italic;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+@media screen and(min-width: 768px) {
+    .custom-title {
+        font-size: 25px;
+    }
+    .custom-text {
+        font-size: 25px;
+    }
+}
+@media screen and(min-width: 1200px) {
+    .custom-title {
+        font-size: 30px;
+    }
+    .custom-text {
+        font-size: 30px;
+    }
+}
+
+// triangle
+.triangle-box {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: -54.9px;
+    left: 0;
+    right: 0;
+}
+
+.triangle {
+    width: 100px;
+}
+
+
+// custom 2 
+.custom2 {
+    background-color: $primary-color;
+    .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.custom2-box {
+    margin: 55px auto;
+}
+
+.custom2-descrition {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    height: 100%;
+}
+
+.custom2-title {
+    color: $white-color;
+    text-decoration: underline;
+    font-size: 20px;
+    font-style: italic;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+
+.custom2-text {
+    color: $white-color;
+    font-size: 20px;
+    font-style: italic;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+@media screen and(min-width: 768px) {
+    .custom2-title {
+        font-size: 25px;
+    }
+    .custom2-text {
+        font-size: 25px;
+    }
+}
+@media screen and(min-width: 1200px) {
+    .custom2-title {
+        font-size: 30px;
+    }
+    .custom2-text {
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,38 @@
+.testimonials {
+    background-color: $white-color;
+}
+
+.testimonials-box {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    height: 700px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.testimonials-text {
+    font-size: calc((1.6rem + 2vw)/2);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.testimonial-icon {
+    width: 75px;
+    height: 75px;
+    background-color: $black-color;
+    border-radius: 50%;
+}
+
+.testimonial-user {
+    display: flex;
+    margin-bottom: 20px;
+}
+.testimonial-name {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    font-size: calc((2rem + 2.5vw)/2);
+}

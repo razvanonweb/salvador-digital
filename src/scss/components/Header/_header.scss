@@ -172,7 +172,6 @@
            width: 0;
            background-color: $primary-color;
            transition: 0.15s ease-in-out;
-           margin-left: 15px;
        }
 
        &:hover:after{
@@ -194,7 +193,6 @@
            width: 0;
            background-color: $primary-color;
            transition: 0.15s ease-in-out;
-           margin-left: 15px;
        }
 
        &:hover:after{
@@ -216,7 +214,6 @@
            width: 0;
            background-color: $primary-color;
            transition: 0.15s ease-in-out;
-           margin-left: 15px;
        }
 
        &:hover:after{
@@ -238,7 +235,6 @@
            width: 0;
            background-color: $primary-color;
            transition: 0.15s ease-in-out;
-           margin-left: 15px;
        }
 
        &:hover:after{
@@ -250,6 +246,7 @@
 .menu__item:last-child {
 
     position: relative;
+    padding-right: 0;
 
        &:after {
 
@@ -260,7 +257,6 @@
            width: 0;
            background-color: $primary-color;
            transition: 0.15s ease-in-out;
-           margin-left: 15px;
        }
 
        &:hover:after{
