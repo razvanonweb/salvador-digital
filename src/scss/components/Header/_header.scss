@@ -176,7 +176,7 @@
 
        &:hover:after{
 
-           width: 78.28px;
+           width: 44.47px;
        }
 }
 
@@ -197,7 +197,7 @@
 
        &:hover:after{
 
-           width: 60.49px;
+           width: 82.73px;
        }
 }
 
@@ -218,28 +218,7 @@
 
        &:hover:after{
 
-           width: 60.35px;
-       }
-}
-
-.menu__item:nth-child(5) {
-
-        position: relative;
-
-       &:after {
-
-           content: "";
-           position: absolute;
-           display: block;
-           height: 3px;
-           width: 0;
-           background-color: $primary-color;
-           transition: 0.15s ease-in-out;
-       }
-
-       &:hover:after{
-
-           width: 48.93px;
+           width: 47.19px;
        }
 }
 
@@ -298,4 +277,13 @@
 .hide__x {
 
     transform: translateY(-100px);
+}
+
+
+// link 
+.link {
+    font-size: 18px;
+}
+.contact {
+    font-size: 18px;
 }

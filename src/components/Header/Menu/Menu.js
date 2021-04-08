@@ -41,22 +41,17 @@ const Menu = () => {
         </div>
         <li className="menu__item">
           <a className="link" href="#">
-            Prezentare
+            Acasa
           </a>
         </li>
         <li className="menu__item">
           <a className="link" href="#">
-            Beneficii
+            Comunitate
           </a>
         </li>
         <li className="menu__item">
           <a className="link" href="#">
-            Facilitati
-          </a>
-        </li>
-        <li className="menu__item">
-          <a className="link" href="#">
-            Echipa
+            Preturi
           </a>
         </li>
         <li className="menu__item">

@@ -6,26 +6,6 @@ import Triangle from './Triangle';
 const Custom = () => {
   return (
     <>
-      <div className="container-fluid p-0 custom">
-        <div className="container-xl">
-          <div className="row">
-            <div className="col-sm p-0 custom-box">
-              <img className="custom-img" src={CustomImg} alt="social-img" />
-            </div>
-            <div className="col-sm p-0 custom-box">
-              <div className="custom-description">
-                <p className="custom-title">Custom</p>
-                <p className="custom-text text-end">
-                  Custom Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text.
-                </p>
-              </div>
-            </div>
-          </div>
-          <Triangle />
-        </div>
-      </div>
       <div className="container-fluid p-0 custom2">
         <div className="container-xl">
           <div className="row">
@@ -41,6 +21,26 @@ const Custom = () => {
             </div>
             <div className="col-sm p-0 custom2-box">
               <img className="custom-img" src={CustomImg2} alt="social-img" />
+            </div>
+          </div>
+          <Triangle />
+        </div>
+      </div>
+      <div className="container-fluid p-0 custom">
+        <div className="container-xl">
+          <div className="row">
+            <div className="col-sm p-0 custom-box">
+              <img className="custom-img" src={CustomImg} alt="social-img" />
+            </div>
+            <div className="col-sm p-0 custom-box">
+              <div className="custom-description">
+                <p className="custom-title">Custom</p>
+                <p className="custom-text text-end">
+                  Custom Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text.
+                </p>
+              </div>
             </div>
           </div>
         </div>

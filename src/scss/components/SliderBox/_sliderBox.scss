@@ -61,7 +61,7 @@
 .slick-prev {
     @media screen and(min-width: 1024px) {
 
-        left: 10px !important;
+        left: 150px !important;
         z-index: 99 !important;
         display: flex;
         width: 40px !important;
@@ -115,7 +115,7 @@
 .slick-next {
     @media  screen and(min-width: 1024px) {
 
-        right: 10px !important;
+        right: 150px !important;
         z-index: 99 !important;
         display: flex;
         width: 40px !important;
